@@ -32,6 +32,9 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+# SimpleCov
+coverage
+
 /public/packs
 /public/packs-test
 /node_modules
