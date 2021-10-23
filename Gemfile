@@ -10,12 +10,15 @@ gem 'puma', '~> 5.0'
 gem 'rails', '~> 6.1.4'
 gem 'sass-rails', '>= 6'
 gem 'turbolinks', '~> 5'
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'webpacker', '~> 5.0'
 
 group :development, :test do
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'factory_bot_rails'
+  gem 'rubocop-performance'
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-rspec'
 end
 
 group :development do
