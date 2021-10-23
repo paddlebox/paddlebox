@@ -9,6 +9,7 @@ Paddlebox: A content management system designed for those that create content in
 ## Setup
 On a *nix environment, just run:
 ```sh
+asdf install
 ./bin/setup
 ```
 and you should be setup to go.
