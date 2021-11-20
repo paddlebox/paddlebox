@@ -32,6 +32,12 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+# Dotenv
+.env.development.local
+.env.production.local
+.env.test.local
+.env.local
+
 # SimpleCov
 coverage
 
